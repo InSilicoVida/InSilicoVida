@@ -18,6 +18,20 @@
   plugin: sources.py
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0013935123021473-ga1.jpg
+- id: doi:10.1101/2023.11.21.568076
+  title: 'AOPWIKI-EXPLORER: An Interactive Graph-based Query Engine leveraging Large
+    Language Models'
+  authors:
+  - Saurav Kumar
+  - Deepika Deepika
+  - Luke T Slater
+  - Vikas Kumar
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-11-21'
+  link: https://doi.org/gs6ppb
+  orcid: 0000-0002-9795-5967
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3390/ijerph20043473
   title: "The Role of \u201CPhysiologically Based Pharmacokinetic Model (PBPK)\u201D\
     \ New Approach Methodology (NAM) in Pharmaceuticals and Environmental Chemical\
