@@ -773,6 +773,17 @@
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0160412014002414-gr1.jpg
 - id: doi:10.3233/978-1-61499-452-7-77
+  title: A hierarchical decision support system to evaluate the effects of climate
+    change in water supply in a Mediterranean river basin
+  authors:
+  - Tzu Chi Chao
+  - Luis Del Vasto-Terrientes
+  - Aida Valls
+  - Vikas Kumar
+  - Marta Schuhmacher
+  publisher: Artificial Intelligence Research and Development
+  date: '2014-01-01'
+  link: https://doi.org/gs4d4p
   orcid: 0000-0002-9795-5967
   plugin: orcid.py
   file: orcid.yaml
