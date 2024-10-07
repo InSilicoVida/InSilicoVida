@@ -773,6 +773,17 @@
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0160412014002414-gr1.jpg
 - id: doi:10.3233/978-1-61499-452-7-77
+  title: A hierarchical decision support system to evaluate the effects of climate
+    change in water supply in a Mediterranean river basin
+  authors:
+  - Tzu Chi Chao
+  - Luis Del Vasto-Terrientes
+  - Aida Valls
+  - Vikas Kumar
+  - Marta Schuhmacher
+  publisher: Artificial Intelligence Research and Development
+  date: '2014-01-01'
+  link: https://doi.org/gs4d4p
   orcid: 0000-0002-9795-5967
   plugin: orcid.py
   file: orcid.yaml
@@ -830,7 +841,7 @@
   - Luis Rocha-Lona
   - Archana Kumari
   - Yuan Hsin Wang
-  publisher: Advances in Sustainable and Competitive Manufacturing Systems
+  publisher: Lecture Notes in Mechanical Engineering
   date: '2013-01-01'
   link: https://doi.org/gs4d4s
   orcid: 0000-0002-9795-5967
@@ -1146,7 +1157,7 @@
   - Vikas Kumar
   - Marta Schuhmacher
   - "Miriam Garc\xEDa"
-  publisher: Modeling Decisions for Artificial Intelligence
+  publisher: Lecture Notes in Computer Science
   date: '2006-01-01'
   link: https://doi.org/frtgp3
   orcid: 0000-0002-9795-5967
