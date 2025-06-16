@@ -1,5 +1,30 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/toxics12100736
+  title: Computational Tools to Facilitate Early Warning of New Emerging Risk Chemicals
+  authors:
+  - Farina Tariq
+  - Lutz Ahrens
+  - Nikiforos A. Alygizakis
+  - Karine Audouze
+  - Emilio Benfenati
+  - Pedro N. Carvalho
+  - Ioana Chelcea
+  - Spyros Karakitsios
+  - Achilleas Karakoltzidis
+  - Vikas Kumar
+  - Liadys Mora Lagares
+  - Dimosthenis Sarigiannis
+  - Gianluca Selvestrel
+  - Olivier Taboureau
+  - Katrin Vorkamp
+  - Patrik L. Andersson
+  publisher: Toxics
+  date: '2024-10-12'
+  link: https://doi.org/g8nmwn
+  orcid: 0000-0002-9795-5967
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.comtox.2024.100308
   title: 'AOPWIKI-EXPLORER: An interactive graph-based query engine leveraging large
     language models'
@@ -773,6 +798,17 @@
   file: sources.yaml
   image: https://ars.els-cdn.com/content/image/1-s2.0-S0160412014002414-gr1.jpg
 - id: doi:10.3233/978-1-61499-452-7-77
+  title: A hierarchical decision support system to evaluate the effects of climate
+    change in water supply in a Mediterranean river basin
+  authors:
+  - ' Chao Tzu Chi'
+  - ' Del Vasto-Terrientes Luis'
+  - ' Valls Aida'
+  - ' Kumar Vikas'
+  - ' Schuhmacher Marta'
+  publisher: Frontiers in Artificial Intelligence and Applications
+  date: '2014-01-01'
+  link: https://doi.org/gs4d4p
   orcid: 0000-0002-9795-5967
   plugin: orcid.py
   file: orcid.yaml
@@ -830,7 +866,7 @@
   - Luis Rocha-Lona
   - Archana Kumari
   - Yuan Hsin Wang
-  publisher: Advances in Sustainable and Competitive Manufacturing Systems
+  publisher: Lecture Notes in Mechanical Engineering
   date: '2013-01-01'
   link: https://doi.org/gs4d4s
   orcid: 0000-0002-9795-5967
@@ -1146,7 +1182,7 @@
   - Vikas Kumar
   - Marta Schuhmacher
   - "Miriam Garc\xEDa"
-  publisher: Modeling Decisions for Artificial Intelligence
+  publisher: Lecture Notes in Computer Science
   date: '2006-01-01'
   link: https://doi.org/frtgp3
   orcid: 0000-0002-9795-5967
