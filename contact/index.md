@@ -13,13 +13,13 @@ footer-dark: false
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-InSilico vida lab is a part of the [Tecnatox](https://www.tecnatox.cat/). TecnATox is a specialized research center in the area of Technology Transfer in Toxicology, Food and Environmental Health, and member of the TECNIO Network of ACC1Ó. 
+InSilico vida lab is a part of the [Tecnatox](https://www.tecnatox.urv.cat/en/). TecnATox is a specialized research center in the area of Technology Transfer in Toxicology, Food and Environmental Health, and member of the TECNIO Network of ACC1Ó. 
 We are located at Department of Chemical Engineering, Universitat Rovira i Virgili, Tarragona, Spain. 
 
 {%
   include figure.html
   image="images/tecnatox.jpeg"
-  link="https://www.tecnatox.cat/"
+  link="https://www.tecnatox.urv.cat/en/"
   width="400px"
 %}
 
