@@ -3,6 +3,9 @@ title: Projects
 nav:
   order: 2
   tooltip: International and national projects
+  
+header-dark: false
+footer-dark: false
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
