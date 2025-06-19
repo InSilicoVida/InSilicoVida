@@ -1,4 +1,6 @@
 ---
+header-dark: false
+footer-dark: false
 ---
 
 # InSilico Vida
