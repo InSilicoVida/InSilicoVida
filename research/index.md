@@ -3,6 +3,9 @@ title: Research
 nav:
   order: 1
   tooltip: Published works
+  
+header-dark: false
+footer-dark: false
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
