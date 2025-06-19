@@ -3,6 +3,10 @@ title: Teams
 nav:
   order: 3
   tooltip: About our Diverse team
+
+header-dark: false
+footer-dark: false
+
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
