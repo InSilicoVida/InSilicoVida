@@ -36,7 +36,7 @@
   publisher: Computational Toxicology
   date: '2024-06-01'
   link: https://doi.org/gtprnt
-  orcid: 0000-0002-9795-5967
+  orcid: 0000-0001-8345-1349
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1016/j.envres.2023.117343
@@ -1197,6 +1197,178 @@
   date: '2005-01-01'
   link: https://doi.org/c9pc2c
   orcid: 0000-0002-9795-5967
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.envint.2025.109986
+  title: 'S2CIE: semantic, syntactic, and context-based information extraction for
+    AOP development'
+  authors:
+  - Saurav Kumar
+  - Shubh Sharma
+  - Deepika Deepika
+  - Judit Biosca-Brull
+  - Antonio Moreno
+  - Vikas Kumar
+  publisher: Environment International
+  date: '2025-12-01'
+  link: https://doi.org/hbdt29
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/s12940-024-01131-w
+  title: A preliminary estimate of the environmental burden of disease associated
+    with exposure to pyrethroid insecticides and ADHD in Europe based on human biomonitoring
+  authors:
+  - Anthony Purece
+  - Sofie Theresa Thomsen
+  - Dietrich Plass
+  - Anastasia Spyropoulou
+  - Kyriaki Machera
+  - Philippe Palmont
+  - "Am\xE9lie Cr\xE9pet"
+  - Rafiqa Benchrih
+  - Brecht Devleesschauwer
+  - Nina Wieland
+  - Paul Scheepers
+  - Deepika Deepika
+  - Vikas Kumar
+  - Gerardo Sanchez
+  - Jos Bessems
+  - Dario Piselli
+  - Jurgen Buekers
+  publisher: Environmental Health
+  date: '2024-10-23'
+  link: https://doi.org/g9q3hh
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.toxlet.2024.07.364
+  title: P05-28 Developing an open-source harmonized Physiologically Based Kinetic
+    (PBK) model for 4 PFAS (PFOS, PFOA, PFNA, and PFHxS) to assess the toxicological
+    profile of forever chemicals
+  authors:
+  - D. Deepika
+  - A. Noorlander
+  - V. Kumar
+  publisher: Toxicology Letters
+  date: '2024-09-01'
+  link: https://doi.org/g9q3hj
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.toxlet.2024.07.368
+  title: 'P05-32 S2CIE: semantic, syntactic, and context-based information extraction
+    for AOP development'
+  authors:
+  - S. Kumar
+  - S. Sharma
+  - D. Deepika
+  - K. Slater
+  - V. Kumar
+  publisher: Toxicology Letters
+  date: '2024-09-01'
+  link: https://doi.org/g9q3hk
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.toxlet.2024.07.382
+  title: P05-47 An ontology of Physiologically Based Pharmacokinetic Model (PBPK)
+    for harmonization and automation of modeling framework (PBPKO)
+  authors:
+  - V. Kumar
+  - D. Deepika
+  - S. Kumar
+  - S. Sharma
+  publisher: Toxicology Letters
+  date: '2024-09-01'
+  link: https://doi.org/g9q3hm
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.toxlet.2024.07.383
+  title: 'P05-48 Computational New Approach Methodologies: a strategic chess-inspired
+    approach for the Next Generation Risk Assessment'
+  authors:
+  - A. Karakoltzidis
+  - I. Frydas
+  - S. Kumar
+  - D. Deepika
+  - V. Kumar
+  - S. Karakitsios
+  - D. Sarigiannis
+  publisher: Toxicology Letters
+  date: '2024-09-01'
+  link: https://doi.org/g9q3hn
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.12688/openreseurope.17319.1
+  title: 'Enhanced identification of endocrine disruptors through integration of science-based
+    regulatory practices and innovative methodologies: The MERLON Project'
+  authors:
+  - Terje Svingen
+  - Anna-Maria Andersson
+  - Julianna Angelova
+  - Marta Axelstad
+  - Julie Bakker
+  - Lisa Baumann
+  - Anna Beronius
+  - Nora Bouftas
+  - Frederic Chalmel
+  - Sofie Christiansen
+  - Charlotte Cornil
+  - Pauliina Damdimopoulou
+  - Deepika Deepika
+  - "Martijn E. T. Doll\xE9"
+  - Monica Kam Draskau
+  - Margit Bistrup Fischer
+  - Casper P. Hagen
+  - Ellen Hessel
+  - Marie Louise Holmer
+  - Samantha Hughes
+  - Genon Jensen
+  - Hanna Katarina Lilith Johansson
+  - Anders Juul
+  - Vikas Kumar
+  - Saurav Kumar
+  - "Aur\xE9lie Lardenois"
+  - Katharina M. Main
+  - Severine Mazaud-Guittot
+  - S. Jannicke Moe
+  - Gylli Mola
+  - Anne-Simone Parent
+  - Rafael Pineda
+  - Antoine Rolland
+  - Anna Kjerstine Rosenmai
+  - You Song
+  - Antonio Suglia
+  - Manuel Tena-Sempere
+  - Lydia Wehrli
+  - Johanna Zilliacus
+  - Majorie van Duursen
+  publisher: Open Research Europe
+  date: '2024-04-12'
+  link: https://doi.org/gt56t3
+  orcid: 0000-0001-8345-1349
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1208/s12249-023-02680-y
+  title: Development and Evaluation of Amorphous Solid Dispersion of Riluzole with
+    PBPK Model to Simulate the Pharmacokinetic Profile
+  authors:
+  - Kanchan Bharti
+  - Deepika Deepika
+  - Manish Kumar
+  - Abhishek Jha
+  - ' Manjit'
+  - ' Akhilesh'
+  - Vinod Tiwari
+  - Vikas Kumar
+  - Brahmeshwar Mishra
+  publisher: AAPS PharmSciTech
+  date: '2023-10-27'
+  link: https://doi.org/g9q3hp
+  orcid: 0000-0001-8345-1349
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1016/j.toxlet.2022.07.287
