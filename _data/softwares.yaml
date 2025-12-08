@@ -1,0 +1,14 @@
+- title: PFAS PBPK Model
+  description: PFAS PBPK Model is a software tool for predicting the pharmacokinetic behavior of perfluoroalkyl substances (PFAS) in humans.
+  link: https://insilicovida-research-lab.github.io/PFAS-model/
+  tags: PBPK, software
+  group: pbpk
+  date: '2024-01-01'
+
+- title: Euromix PBPK Model
+  description: Euromix model developed in Euromix european project, build on  mixture data.
+  link: https://insilicovida-research-lab.github.io/Euromix-model/
+  tags: PBPK, software
+  group: pbpk
+  date: '2024-01-01'
+

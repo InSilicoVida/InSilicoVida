@@ -1,0 +1,53 @@
+---
+---
+
+details {
+  margin: 40px 0;
+  
+  summary {
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    padding: 10px 0;
+    transition: color 0.2s;
+    
+    &:hover {
+      color: var(--link);
+    }
+    
+    &::-webkit-details-marker {
+      display: none;
+    }
+    
+    &::before {
+      content: "▶";
+      display: inline-block;
+      margin-right: 10px;
+      transition: transform 0.2s ease;
+      color: var(--light-gray);
+      font-size: 0.8em;
+      vertical-align: middle;
+    }
+    
+    h2 {
+      display: inline;
+      margin: 0;
+      border-bottom: none;
+      vertical-align: middle;
+    }
+  }
+  
+  &[open] {
+    summary::before {
+      transform: rotate(90deg);
+    }
+    
+    summary {
+      margin-bottom: 20px;
+    }
+  }
+  
+  > *:not(summary) {
+    margin-top: 20px;
+  }
+}
