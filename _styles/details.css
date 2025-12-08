@@ -1,0 +1,43 @@
+@charset "UTF-8";
+details {
+  margin: 40px 0;
+}
+details summary {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  padding: 10px 0;
+  transition: color 0.2s;
+}
+details summary:hover {
+  color: var(--link);
+}
+details summary::-webkit-details-marker {
+  display: none;
+}
+details summary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+  color: var(--light-gray);
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+details summary h2 {
+  display: inline;
+  margin: 0;
+  border-bottom: none;
+  vertical-align: middle;
+}
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+details[open] summary {
+  margin-bottom: 20px;
+}
+details > *:not(summary) {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=details.css.map */
