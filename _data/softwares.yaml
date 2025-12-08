@@ -12,3 +12,10 @@
   group: pbpk
   date: '2024-01-01'
 
+- title: BPA PBPK Model
+  description: BPA model for chemical exposure assesment.
+  link: https://insilicovida-research-lab.github.io/BPA-model/
+  tags: PBPK, software
+  group: pbpk
+  date: '2024-01-01'
+
