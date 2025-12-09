@@ -34,9 +34,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # Set base path for GitHub Pages if repo is not username.github.io
-          # Uncomment and set your repo name if needed:
-          # VITE_BASE_PATH: /your-repo-name/
+          VITE_BASE_PATH: /InSilicoVida/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -56,4 +54,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
