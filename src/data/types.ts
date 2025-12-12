@@ -1,5 +1,7 @@
 // Shared TypeScript interfaces for all data types
 
+export type SoftwareCategory = "pbpk" | "text-mining" | "omics";
+
 export interface Software {
   name: string;
   description: string;
@@ -7,9 +9,10 @@ export interface Software {
   stars?: number;
   license?: string;
   github?: string;
-  docs: string;
+  doi?: string;
+  website?: string;
   tags?: string[];
-  category?: string;
+  category: SoftwareCategory;
   date?: string;
 }
 

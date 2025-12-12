@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ExternalLink, Github, Download, Star } from "lucide-react";
@@ -6,6 +6,7 @@ import { software } from "@/data/software";
 import { HighlightedText } from "@/components/HighlightedText";
 import { useGSAP } from "@/hooks/useGSAP";
 import { scrollStagger, fadeInUp, tilt3D } from "@/utils/animations";
+import { SoftwareCategory } from "@/data/types";
 
 const getLanguageColor = (language: string) => {
   const colors: Record<string, string> = {
@@ -17,9 +18,23 @@ const getLanguageColor = (language: string) => {
   return colors[language] || "bg-muted";
 };
 
+type FilterType = "all" | SoftwareCategory;
+
 const Software = () => {
   const headerRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<HTMLDivElement>(null);
+  const [activeFilter, setActiveFilter] = useState<FilterType>("all");
+
+  const filteredSoftware = activeFilter === "all" 
+    ? software 
+    : software.filter((item) => item.category === activeFilter);
+
+  const filterOptions: { value: FilterType; label: string }[] = [
+    { value: "all", label: "All" },
+    { value: "pbpk", label: "PBPK Tools/Models" },
+    { value: "text-mining", label: "Text-mining Tools" },
+    { value: "omics", label: "Omics Related Tools" },
+  ];
 
   useGSAP(() => {
     if (headerRef.current) {
@@ -41,7 +56,7 @@ const Software = () => {
         }
       });
     }
-  }, []);
+  }, [activeFilter]);
 
   return (
     <div className="min-h-screen bg-background">
@@ -61,8 +76,24 @@ const Software = () => {
               </p>
             </div>
 
+            <div className="flex flex-wrap justify-center gap-3 mb-12">
+              {filterOptions.map((option) => (
+                <button
+                  key={option.value}
+                  onClick={() => setActiveFilter(option.value)}
+                  className={`px-6 py-2.5 text-sm font-medium rounded-md transition-all duration-200 ${
+                    activeFilter === option.value
+                      ? "bg-primary text-primary-foreground shadow-md"
+                      : "bg-card border border-border text-muted-foreground hover:bg-muted hover:text-foreground"
+                  }`}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+
             <div ref={cardsRef} className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {software.map((item) => (
+              {filteredSoftware.map((item) => (
                 <article
                   key={item.name}
                   className="software-card group flex flex-col p-6 bg-card border border-border hover:border-muted transition-all duration-300 will-change-transform"
@@ -109,21 +140,32 @@ const Software = () => {
                     </div>
                   )}
 
-                  <div className="flex items-center gap-3 mt-6 pt-6 border-t border-border">
-                    <a
-                      href={item.docs}
-                      className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
-                    >
-                      <ExternalLink size={14} />
-                      Documentation
-                    </a>
+                  <div className="flex items-center gap-3 mt-6 pt-6 border-t border-border flex-wrap">
+                    {item.website && (
+                      <a
+                        href={item.website}
+                        className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+                      >
+                        <ExternalLink size={14} />
+                        Visit
+                      </a>
+                    )}
+                    {item.doi && (
+                      <a
+                        href={item.doi}
+                        className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+                      >
+                        <ExternalLink size={14} />
+                        DOI
+                      </a>
+                    )}
                     {item.github && (
                       <a
                         href={item.github}
                         className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
                       >
-                        <Download size={14} />
-                        Download
+                        <Github size={14} />
+                        GitHub
                       </a>
                     )}
                   </div>
