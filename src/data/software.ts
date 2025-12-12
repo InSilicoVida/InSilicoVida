@@ -44,5 +44,13 @@ export const software: Software[] = [
     category: "text-mining",
     date: "2024-01-01",
   },
+  {
+    name: "SBML WASM Simulator",
+    description: "SBML WASM Simulator is a Systems Biology Markup Language Model Simulation Platform for native browser-based simulation of kinetic models.",
+    website: "https://insilicovida-research-lab.github.io/PFAS-model/",
+    tags: ["systems biology", "SBML", "simulation", "kinetic models", "WASM"],
+    category: "omics",
+    date: "2024-01-01",
+  },
 ];
 
